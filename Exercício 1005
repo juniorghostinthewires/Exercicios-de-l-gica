@@ -1,0 +1,18 @@
+/********** Exercicio 1005 URI*/
+programa {
+    inclua biblioteca Matematica --> Math
+    
+	funcao inicio() {
+	real nota1, nota2, media, arrendondamento 
+	
+	escreva("Digite aqui a sua primeira nota: ")
+	leia(nota1)
+	
+	escreva("Digite aqui a sua segunda nota: ")
+	leia(nota2)
+	
+	media = (nota1 * 3.5 + nota2 * 7.5) /11
+	
+	escreva("Sua nota final foi: ", Math.arredondar(media,5)  )
+	}
+}

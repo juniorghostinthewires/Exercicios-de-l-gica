@@ -1,0 +1,17 @@
+/*** Problema 1008*****/
+programa 
+{
+	funcao inicio ()
+	{
+	 inteiro matriculaf, horastrabalhadas
+	 real valordahora, salario
+	 
+	 leia(matriculaf, horastrabalhadas, valordahora)
+	 
+	 salario = (horastrabalhadas*valordahora)
+	 
+	 escreva("NUMBER = ", matriculaf, "\n")
+	 escreva("SALARY= U$ ", salario, "\n ")
+	}
+		
+}

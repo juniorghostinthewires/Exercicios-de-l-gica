@@ -1,0 +1,16 @@
+/*** Problema 1009*****/
+programa 
+{
+	funcao inicio ()
+	{
+	cadeia nome
+	real salario_fixo, vendas, salario
+	
+	leia(nome, salario_fixo, vendas)
+	
+	salario = salario_fixo + (vendas*0.15)
+	
+	escreva("Seu total de salario com bonus é: ", salario)
+		
+}
+}

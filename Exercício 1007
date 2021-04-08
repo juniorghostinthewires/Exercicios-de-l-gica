@@ -1,0 +1,14 @@
+/*** Problema 1007*****/
+programa 
+{
+	funcao inicio ()
+	{
+	 inteiro a,b,c,d, diferenca
+	 leia(a,b,c,d)
+	 
+	 diferenca = (a*b - c*d)
+	 
+	 escreva("DIFERENÇA = ", diferenca)
+	}
+		
+}

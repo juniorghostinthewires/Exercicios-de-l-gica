@@ -1,0 +1,22 @@
+/*** Problema 1010*****/
+programa 
+{
+	funcao inicio ()
+	{
+	inteiro cod_peca1, cod_peca2, quant_peca1, quant_peca2
+	real valor_peca1, valor_peca2, total
+	
+	escreva("Seja bem-vindo ao MAC UNINOVE, digite o código do seu pedido, quantidade e valor, amigao: \n")
+	leia(cod_peca1, quant_peca1, valor_peca1)
+	
+	escreva("\nBoa escolha meu camarada, agora me diga seu segundo item com as mesmas caracteristicas anteriores: \n")
+	leia(cod_peca2, quant_peca2, valor_peca2)
+	
+	total = (quant_peca1 * valor_peca1) + (quant_peca2 * valor_peca2)
+	
+	
+	
+	escreva("VALOR A PAGAR: R$ ", total)
+		
+}
+}

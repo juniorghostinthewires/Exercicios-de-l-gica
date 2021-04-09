@@ -1,0 +1,17 @@
+programa  
+{  
+    funcao inicio()       {  
+        real valordahora, horastrabalhadas, tristeza
+              
+             escreva("Seja bem-vindo ao Caixasnaotem! \n")
+             escreva("\nDigite aqui o valor da sua hora trabalhada: \n")  
+             leia(valordahora)
+             escreva("\nDigite aqui quantas horas voce trabalhou este mes: \n")
+             leia(horastrabalhadas)
+              tristeza = valordahora * horastrabalhadas
+             escreva("Seu grande recebimento no final do mês será de R$ ", tristeza, "\n")
+    
+            
+             
+        }  
+}

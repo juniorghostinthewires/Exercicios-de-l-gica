@@ -1,0 +1,24 @@
+programa  
+{  
+    funcao inicio()       {  
+         real av1,av2,av3, media
+              
+             escreva("Seja bem-vindo ao sistemas de notas unizero: \n")
+             escreva(" \nDigite aqui a nota da sua AV1:  \n")  
+              leia(av1)   
+              escreva("\nDigite aqui a nota da sua AV2: \n")
+              leia(av2)
+              escreva("\nDigite aqui a nota da sua AV3\n")
+              leia(av3)
+    
+              media = (av1 + av2 + av3)/2
+              se (av1+av2> av1+av3)
+              media = (av1+av3)/2
+              senao
+              media = (av1+av2)/2
+              se(media >=6)
+              escreva("\nAprovado, champion\n")
+              senao
+              escreva("\nReprovado, amigao\n")
+        }  
+        }  

@@ -1,0 +1,26 @@
+programa  
+{  
+    funcao inicio()       {  
+        real mixaria, vendinhas, tristeza, sorriso
+        
+/**
+mixaria = O salario fixo mensal;
+vendinhas = total de vendas no mes;
+tristeza = comissao
+sorriso = salario com comissao no final do mes
+
+**/
+              
+             escreva("Seja bem-vindo ao Caixasnaotem! \n")
+             escreva("\nDigite aqui seu salário fixo: \n")  
+             leia(mixaria)
+             escreva("\nDigite aqui seu total de vendas: \n")
+             leia(vendinhas)
+             tristeza = (mixaria*vendinhas) *15/100
+             sorriso = mixaria + tristeza
+             escreva("Seu salario com coissao no final do mês será de R$ ", sorriso,"\n")
+    
+            
+             
+        }  
+}

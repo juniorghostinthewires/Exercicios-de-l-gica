@@ -1,0 +1,13 @@
+programa  
+{  
+    funcao inicio()       {  
+         cadeia nomedomeliante 
+        
+              
+
+             escreva("Digite aqui o seu nome: ")  
+              leia(nomedomeliante)   
+              escreva("Seja bem-vindo cidadao, \n", nomedomeliante   )
+              
+        }  
+        }  

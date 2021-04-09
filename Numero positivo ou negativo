@@ -1,0 +1,14 @@
+programa  
+{  
+    funcao inicio()       {  
+         real n1
+              
+             escreva("Seja bem-vindo ao matematron! \n")
+             escreva("\nDigite aqui um numero para descobrir se ele é positivo ou negativo: \n")  
+              leia(n1)   
+              se (n1>0)
+              escreva ("\nNumero mais positivo que coaching motivacional. \n")
+              senao
+              escreva("\nNumero mais negativo que o saldo bancario deste programador que vos escreve\n")
+        }  
+}

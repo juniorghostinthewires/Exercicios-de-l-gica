@@ -1,0 +1,16 @@
+programa  
+{  
+    funcao inicio()       {  
+        inteiro a,b,soma
+        
+              
+
+             escreva("Digite aqui o primeiro valor, por gentileza:  ")  
+              leia(a)   
+              escreva("Digite aqui o segundo valor: ")
+              leia(b)      
+              soma = a + b
+              escreva("Resultado da sua soma foi: ", soma)
+              
+        }  
+        }  

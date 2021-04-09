@@ -1,0 +1,17 @@
+programa  
+{  
+    funcao inicio()       {  
+         real n1,n2,media
+              
+             escreva("Seja bem-vindo ao sistemas de notas unizero: \n")
+             escreva(" \nDigite aqui sua primeira nota:  \n")  
+              leia(n1)   
+              escreva("\nDigite aqui sua segunda nota, \n")
+              leia(n2)
+              media = (n1 + n2) /2
+              se (media >= 6)
+              escreva("\nAprovado, champion\n")
+              senao
+              escreva("\nReprovado, amigao\n")
+        }  
+        }  

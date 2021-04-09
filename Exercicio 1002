@@ -1,0 +1,11 @@
+programa  
+{  
+    funcao inicio()       {  
+              real area, r   
+              real pi = 3.14159  
+
+             escreva("Por gentileza, escreva aqui medida do raio: ")  
+              leia(r)   
+              escreva("A= ", pi * (r * r))  
+        }  
+        }  

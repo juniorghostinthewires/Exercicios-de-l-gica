@@ -1,0 +1,14 @@
+programa  
+{  
+    funcao inicio()       {  
+        inteiro umdosdois
+              
+             escreva("Seja bem-vindo ao idadetron! \n")
+             escreva("\nDigite aqui sua idade ou data de nascimento e eu te falarei o oposto: \n")  
+             leia(umdosdois)
+             
+             umdosdois = umdosdois - 2021 
+              escreva ("\nSeu ano de nascimento ou idade: \n", umdosdois)
+            
+        }  
+}
